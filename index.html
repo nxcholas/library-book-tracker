@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+        <fieldset class="form-library">
+            <legend class="section-heading">My Library</legend>
+            <!-- entry elements goes here -->
+        </fieldset>
+    <form id="bookForm">
+        <fieldset class="form-section">
+            <legend class="section-heading">Entry</legend>
+            <input id="title" type="text" placeholder="Title">
+            <input id="author" type="text" placeholder="Author">
+            <input id="pages" type="number" placeholder="Pages">
+            <select id="read-or-notread">
+                <option disabled selected>Select One</option>
+                <option id="read" value="read">Read Already</option>
+                <option id="not-read" value="not read">Not Read</option>
+            </select>
+            <button type="submit" id="entry-btn">Add Entry</button>
+        </fieldset>
+    </form>
+</body>
+<script src="script.js">
+</script>
+</html>

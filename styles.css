@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: palegoldenrod;
+    font-family: "Raleway";
+}
+
+.form-library{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.book-entry{
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.book-entry > *{
+    margin: 20px;
+}
